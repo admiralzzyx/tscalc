@@ -1,0 +1,26 @@
+SYNOPSIS:       Travel_Speed_Calculator [CONDITIONS]
+
+Conditions may be combined in any order, to form a single string.
+
+        l       Heavy Luggage (Category: Luggage)
+        m       Max Speed (Category: Speed)
+        a       Relaxed/Average Speed (Category: Speed)
+        f       On Foot (Category: Means)
+        h       Horse (Category: Means)
+        r       Horse Relays (Category: Means)
+        o       Oxcart (Category: Means)
+        p       Porter (Category: Means)
+        c       Fast Cart (Category: Means)
+        t       Rough Terrain (Category: Medium)
+        x       Roadless (Category: Medium)
+        w       Highway (Category: Medium)
+        b       Riverboat (Category: Maritime)
+        z       Fast Ship (Category: Maritime)
+        s       Slow Ship (Category: Maritime)
+        d       Daylight Only (Category: Maritime)
+
+        --help  This help menu.
+
+INCOMPATIBILITY RULES:
+    (1) Any other category, except Category Speed, is incompatible with Category Maritime
+    (2) Any two within the same category are incompatible
