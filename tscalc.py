@@ -1,5 +1,4 @@
 #!/bin/python3
-# VERSION 2023.03.03.1
 
 # WIP:  later on, make a GUI version of this
 
@@ -131,13 +130,6 @@ def incompatibilityCheck(conditionList):
         for j in incompatibleCategorySwitch.get(i.category, "Invalid_List"):
             bannedItem.append(j)
         bannedItem.append(incompatibleIndicatorSwitch.get(i.indicator, []))
-
-    """
-    # Debug Block
-    print(usedItem)
-    print(bannedItem)
-    exit()
-    """
 
     for i in bannedItem:
         for j in usedItem:
