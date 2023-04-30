@@ -1,4 +1,4 @@
-SYNOPSIS:       Travel_Speed_Calculator [CONDITIONS]
+SYNOPSIS:       tscalc [CONDITIONS]
 
 Conditions may be combined in any order, to form a single string.
 
