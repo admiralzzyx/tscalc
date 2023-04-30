@@ -87,6 +87,7 @@ class trek:
         for i in self.conditionList:
             if i.category == 'mar':
                 base = 196.07
+                break
             else:
                 base = 28.76
 
