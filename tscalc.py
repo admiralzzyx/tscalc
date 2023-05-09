@@ -47,8 +47,8 @@ def conditionInstantiate(inputString):
         'b':0.32,   #(Maritime) Riverboat
         'z':1.0,    #(Maritime) Fast Ship
         's':0.38,   #(Maritime) Slow Ship
-        'd':0.75    #(Maritime) Daylight Only
-        'e':0.2,    #(Maritime) Rough Waters
+        'd':0.75,   #(Maritime) Daylight Only
+        'e':0.2     #(Maritime) Rough Waters
     }
 
     categorySwitch={
@@ -118,7 +118,7 @@ def incompatibilityCheck(conditionList):
     for i in conditionList:
         matchCount = 0
         for j in conditionList:
-            if i.indicator == j.indicator or i.category == j.category:
+            if i.indicator == j.indicator or i.category == j.category and i.category != 'mar':
                 matchCount += 1
                 if matchCount > 1:
                     print(f"Error: Repeat characters and/or categories found in inputed string.")
