@@ -48,6 +48,7 @@ def conditionInstantiate(inputString):
         'z':1.0,    #(Maritime) Fast Ship
         's':0.38,   #(Maritime) Slow Ship
         'd':0.75    #(Maritime) Daylight Only
+        'e':0.2,    #(Maritime) Rough Waters
     }
 
     categorySwitch={
@@ -66,7 +67,8 @@ def conditionInstantiate(inputString):
         'b':'mar',
         'z':'mar',
         's':'mar',
-        'd':'mar'
+        'd':'mar',
+        'e':'mar'
     }
 
     conditionObjList = []

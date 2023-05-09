@@ -18,6 +18,7 @@ Conditions may be combined in any order, to form a single string.
         z       Fast Ship (Category: Maritime)
         s       Slow Ship (Category: Maritime)
         d       Daylight Only (Category: Maritime)
+        e       Rough Waters (Category: Maritime)
 
         --help  This help menu.
 
